@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a0d80-97f9-49ef-bf34-0193ea52ed11" name="Changes" comment="" />
+    <list default="true" id="b10a0d80-97f9-49ef-bf34-0193ea52ed11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Japanki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SungjukMgmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SungjukMgmt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sungjuk.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="없음" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ixDicx4WadpHg4bGEDdCZfWsjW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,9 +63,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/0709",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.ArrayDemo.executor": "Run",
+    "애플리케이션.ArrayDemo1.executor": "Run",
+    "애플리케이션.ArrayDemo2.executor": "Run",
+    "애플리케이션.ArrayDemo3.executor": "Run",
+    "애플리케이션.ArrayDemo4.executor": "Run",
+    "애플리케이션.HelloWorld1.executor": "Run",
+    "애플리케이션.HelloWorld2.executor": "Run",
+    "애플리케이션.Japanki.executor": "Run",
+    "애플리케이션.MethodDemo.executor": "Run",
+    "애플리케이션.MethodDemo1.executor": "Run",
+    "애플리케이션.MethodDemo2.executor": "Run",
+    "애플리케이션.MethodDemo3.executor": "Run",
+    "애플리케이션.MethodDemo4.executor": "Run",
+    "애플리케이션.SungjukMgmt.executor": "Run",
+    "애플리케이션.SungjukMgmt1.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -40,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720423463083</updated>
       <workItem from="1720423464426" duration="4000" />
+      <workItem from="1720486892926" duration="20557000" />
     </task>
     <servers />
   </component>
