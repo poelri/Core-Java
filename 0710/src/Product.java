@@ -4,8 +4,14 @@ public class Product {
     int sellingPrice; // 판매단가
     int purchasePrice; // 매입단가
     int shippingPrice; // 운송료
+
+    int salesAmount; //판매금액
+    int purchaseAmount; // 매입금액
+
     int profit; // 이익금
-    int profitMargin; //이익률
+    double profitMargin; //이익률
+
+
 
     public String getProductName() {
         return productName;
@@ -47,6 +53,22 @@ public class Product {
         this.shippingPrice = shippingPrice;
     }
 
+    public int getSalesAmount() {
+        return salesAmount;
+    }
+
+    public void setSalesAmount(int salesAmount) {
+        this.salesAmount = salesAmount;
+    }
+
+    public int getPurchaseAmount() {
+        return purchaseAmount;
+    }
+
+    public void setPurchaseAmount(int purchaseAmount) {
+        this.purchaseAmount = purchaseAmount;
+    }
+
     public int getProfit() {
         return profit;
     }
@@ -55,11 +77,11 @@ public class Product {
         this.profit = profit;
     }
 
-    public int getProfitMargin() {
+    public double getProfitMargin() {
         return profitMargin;
     }
 
-    public void setProfitMargin(int profitMargin) {
+    public void setProfitMargin(double profitMargin) {
         this.profitMargin = profitMargin;
     }
 }
