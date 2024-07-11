@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="684b5d2a-cc7a-4cb7-8cf4-c939171d28b8" name="Changes" comment="" />
+    <list default="true" id="684b5d2a-cc7a-4cb7-8cf4-c939171d28b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CallByRefDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EncapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OverloadingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductMgmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SungjukMgmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariableArgumentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0709/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../0709/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0709/src/ArrayDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0709/src/ArrayDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0709/src/HelloWorld2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0709/src/HelloWorld2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0709/src/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0709/src/MethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0709/src/MethodDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0709/src/MethodDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0709/src/MethodDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../0709/src/MethodDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="xml" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;poelri&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/poelri/Core-Java.git&quot;,
+    &quot;accountId&quot;: &quot;3c44c8bf-ceac-413e-950e-0000c4996a87&quot;
+  }
+}</component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="없음" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ixE6KERf7qynHE6NmhFSBnPkCo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,11 +71,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/0710/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.CallByRefDemo.executor": "Run",
+    "애플리케이션.CallByRefDemo1.executor": "Run",
+    "애플리케이션.EncapDemo.executor": "Run",
+    "애플리케이션.ProductMgmt.executor": "Run",
+    "애플리케이션.SungjukMgmt.executor": "Run",
+    "애플리케이션.VariableArgumentDemo.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\0710\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -40,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1720423656022</updated>
       <workItem from="1720423657182" duration="34000" />
+      <workItem from="1720573212288" duration="9000" />
+      <workItem from="1720574027779" duration="17697000" />
     </task>
     <servers />
   </component>

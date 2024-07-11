@@ -7,7 +7,8 @@
 
 public class MethodDemo {
     public static void main(String[] args) {
-        MethodDemo md=new MethodDemo(); md.calcHap();
+        MethodDemo md=new MethodDemo();
+        md.calcHap();
     }
    void calcHap(){
         // 괄호가 있으면 함수, 없으면 변수

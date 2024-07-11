@@ -7,9 +7,10 @@ public class ArrayDemo3 {
 
           int [] original = {3,4,5};
           int [] target = new int[10];
-          System.arraycopy(original,0,target,0,3); // 배열의, 몇번째부터, 어디로?, 몇번째부터 ? ,몇개를 가져올꺼야?
-
-
-
+          System.arraycopy(original,0,target,0,3);
+          // 배열의, 몇번째부터, 어디로?, 몇번째부터 ? ,몇개를 가져올꺼야?
+        for (int i = 0; i < target.length; i++) {
+            System.out.print(target[i]);
+        }
     }
 }

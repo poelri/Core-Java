@@ -3,8 +3,9 @@ public class MethodDemo3 {
         MethodDemo3 md = new MethodDemo3();
         md.print();
     }
+
     String print() { //member method
-        int su = 5;
+        int su = 4;
         System.out.println("Hello");
         if(su % 2 ==0 ) return "aaaa";
         else {
