@@ -84,4 +84,10 @@ public class Student {
     public void setEdp(int edp) {
         this.edp = edp;
     }
+
+    @Override
+    public String toString(){
+        return String.format(  "Student [hakbun=%s, name=%s, kor=%s,eng=%s,mat=%s,edp=%s,avg=%s,grade=%s]",
+                hakbun, name, kor, eng, mat, edp, avg, grade);
+    }
 }
