@@ -22,8 +22,10 @@ public class Calc {
             int buyMoney = p.getQuantity() * p.getBuyPrice();
             int benefit = sellMoney - (buyMoney + p.getTransport());
             double rate = (double) benefit / buyMoney *100 ;
-            p.setBanefit(benefit);
-            p.setRate(rate);
+
+
+            p.setBanefit(benefit); // 이익금
+            p.setRate(rate); // 이익율
         }
     }
 }
