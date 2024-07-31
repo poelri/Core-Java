@@ -16,7 +16,8 @@ public class UpdateController {
         boolean flag = false;
         try {
             CalcController calcController = new CalcController(p);
-            flag = this.pDao.updatePatient(p);
+            this.pDao.updatePatient(p);
+            flag = true;
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
