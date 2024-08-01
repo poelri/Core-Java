@@ -75,6 +75,7 @@ public class PatientView {
                     p.getNumber(), p.getDept(), p.getOperFee(), p.getHospitalFee(),p.getMoney());
         }
     }
+
     private void selectAllMenu() {
         SelectController sc = new SelectController();
         List<PatientVO> list = sc.selectAllPatient();
