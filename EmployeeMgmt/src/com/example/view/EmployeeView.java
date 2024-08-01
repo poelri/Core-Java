@@ -135,7 +135,7 @@ public class EmployeeView {
                 }
             }
 
-            e = new EmployeeVO(empno, ename, null, nhour, rsal, nhour, fcount);
+            e = new EmployeeVO(empno, ename, null, nhour, rsal,nhour, fcount);
             calc = new CalcController(e);  // calc 객체 초기화
             calc.calc();  // 계산 수행
             String dname = e.getDname();

@@ -23,7 +23,7 @@ public class CalcController {
         int fsal = 7000 * e.getFcount();
 
         // 기본급 계산
-        int sal = getSal(e.getSal());
+        int result = getSal(e.getSal());
 
         // 호급수당 계산
         int rsal = getRsal(e.getEmpno());
@@ -32,7 +32,7 @@ public class CalcController {
         int nsal = getNsal(e.getNhour());
 
         // 총급액 계산
-        int total = sal + rsal + nsal + fsal;
+        int total = result + rsal + nsal + fsal;
 
         // 세금 (호급수당의 10%)
         double tax = rsal * 0.10;
@@ -71,14 +71,15 @@ public class CalcController {
 
     // 기본급 (기본급 참조)
     private int getSal(int sal){
+        int result = 0;
         switch(sal){
-            case 1 : sal = 15000; break;
-            case 2 : sal = 25000; break;
-            case 3 : sal = 35000; break;
-            case 4 : sal = 45000; break;
-            default: sal = 0;
+            case 1 : result = 15000; break;
+            case 2 : result = 25000; break;
+            case 3 : result = 35000; break;
+            case 4 : result = 45000; break;
+            default: result = 0;
         }
-        return sal;
+        return result;
     }
 
     // 호급수당 계산
