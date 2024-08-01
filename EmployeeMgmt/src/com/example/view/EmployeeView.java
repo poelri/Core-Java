@@ -1,11 +1,11 @@
 /*
-    작성자 : 박종호
-    작성일 : 2024-08-01
-    작성목적 : 사원관리프로그램 -
-    작성환경 : Windows 10 22H2(OS Build 19045.4651),
-            JDK 17.0.10
-            IntelliJ IDEA 2024.1.4 (Ultimate Edition)
- */
+        작성자 : 박종호
+        작성일 : 2024-08-01
+        작성목적 : 사원관리프로그램 -
+        작성환경 : Windows 10 22H2(OS Build 19045.4651),
+        JDK 17.0.10
+        IntelliJ IDEA 2024.1.4 (Ultimate Edition)
+        */
 package com.example.view;
 
 import com.example.controller.CalcController;
@@ -85,13 +85,13 @@ public class EmployeeView {
             }
 
             // 기본급
-            int rsal = 0;
+            int sal = 0;
             while (true) {
                 System.out.print("기본급 입력 : ");
                 String input = this.scan.next();
                 try {
-                    rsal = Integer.parseInt(input);
-                    if (rsal >= 1 && rsal <= 4) {
+                    sal = Integer.parseInt(input);
+                    if (sal >= 1 && sal <= 4) {
                         break;
                     } else {
                         System.out.println("잘못입력했어요. 다시 입력하세요");
@@ -135,12 +135,12 @@ public class EmployeeView {
                 }
             }
 
-            e = new EmployeeVO(empno, ename, null, nhour, rsal,nhour, fcount);
+            e = new EmployeeVO(empno, ename, null, sal, nhour, fcount);
             calc = new CalcController(e);  // calc 객체 초기화
             calc.calc();  // 계산 수행
             String dname = e.getDname();
 
-            e = new EmployeeVO(empno, ename, dname, nhour, rsal, nhour, fcount);
+            e = new EmployeeVO(empno, ename, dname, sal, nhour, fcount);
             InsertController ic = new InsertController();
             if (ic.insert(e)) {
                 System.out.println("사원 등록 성공");

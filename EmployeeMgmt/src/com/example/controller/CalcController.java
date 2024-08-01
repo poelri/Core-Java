@@ -24,6 +24,7 @@ public class CalcController {
 
         // 기본급 계산
         int result = getSal(e.getSal());
+        System.out.println(result);
 
         // 호급수당 계산
         int rsal = getRsal(e.getEmpno());
@@ -40,12 +41,17 @@ public class CalcController {
         // 실수령액 계산
         int realTotal = (int) (total - tax);
 
+
+        e.setResult(result);
         e.setDname(getDname(e.getEmpno()));
         e.setRsal(rsal);
         e.setFsal(fsal);
         e.setNsal(nsal);
         e.setTotal(total);
         e.setRealTotal(realTotal);
+
+        System.out.println(result);
+
     }
 
     // 부서명 코드

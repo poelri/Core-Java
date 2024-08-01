@@ -12,6 +12,7 @@ public class EmployeeVO {
     private String empno; //사원번호 (알파벳)
     private String ename; //사원이름
     private String dname; // 부서명
+    private int result;// 기본급금액
     private int sal; //기본급
     private int rsal; //호급수당
     private int fsal; //가족수당
@@ -21,13 +22,20 @@ public class EmployeeVO {
     private int total; //총금액
     private int realTotal; //실수령액
 
+    public int getResult() {
+        return result;
+    }
+
+    public void setResult(int result) {
+        this.result = result;
+    }
+
     public EmployeeVO(){} //기본생성자
-    public EmployeeVO(String empno, String ename, String dname, int sal, int rsal, int nhour, int fcount ){
+    public EmployeeVO(String empno, String ename, String dname, int sal, int nhour, int fcount ){
         this.empno = empno;
         this.ename = ename;
         this.dname = dname;
         this.sal = sal;
-        this.rsal = rsal;
         this.nhour = nhour;
         this.fcount = fcount;
     }
